@@ -112,7 +112,7 @@ if playerHP > 0:
 	print(f"Player HP: {playerHP}   Computer HP: {compHP}")
 	print()
 	print("CONGRATULATIONS! PLAYER WINS!")
-elif player_wins == comp_wins:
+elif playerHP == compHP:
 	print("DRAW!!")
 else:
 	print()
